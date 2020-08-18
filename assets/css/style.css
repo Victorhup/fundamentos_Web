@@ -2,6 +2,9 @@
 Estilos da Página index.html */
 @import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
 
+.bodyimg {
+    Background-image: URL ('https://images.app.goo.gl/KY1MG4tFqzcgFeRz9');
+}
 h1{
     font-family: 'BenchNine', sans-serif;
 }
@@ -13,6 +16,7 @@ h2{
 }
 .center {
     text-align: center;
+    padding: 20px;
 }
 
 .container {
@@ -20,6 +24,7 @@ h2{
     flex-flow: row ;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -34,14 +39,17 @@ h2{
     color:whitesmoke;
     font-size: 22px;
 }
-
+.tmf {
+    font-size: 25px;
+    padding: 30px;
+}
 .menu li a:hover{
     color: grey;
 }
 .p30{
     padding: 30px;
 }
-.br-40{
+.br-50{
     border-radius: 50%;
 }
 .wh{

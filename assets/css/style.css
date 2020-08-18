@@ -1,0 +1,65 @@
+/*
+Estilos da Página index.html */
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+
+h1{
+    font-family: 'BenchNine', sans-serif;
+}
+p {
+    font-family: 'BenchNine', sans-serif; 
+}
+h2{
+    font-family: 'BenchNine', sans-serif;
+}
+.center {
+    text-align: center;
+}
+
+.container {
+    display:flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu li{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 22px;
+}
+
+.menu li a:hover{
+    color: grey;
+}
+.p30{
+    padding: 30px;
+}
+.br-40{
+    border-radius: 50%;
+}
+.wh{
+    width: 350px;
+    height: 350px;
+}
+.tm-social{
+    width: 30px;
+    height: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/*Estilos da Página sobreMim.html*/
+
